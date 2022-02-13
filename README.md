@@ -16,7 +16,7 @@ _Authorization: JWT <auth_token>_
 
 ## Exposed endpoints
 
-##### /order/
+#### /order/
 JWT protected.__
 
 Method GET: provides Orders list, including their details.
