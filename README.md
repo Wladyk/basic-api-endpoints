@@ -4,10 +4,10 @@
 
 ## Authenthication
 
-This app uses JWT auth through djoser. The endpoints related to it are:__
-_/auth/jwt/users/_ for user creation:__
-_/auth/jwt/create/_ for user validation and auth/refresh token generation__
-_/auth/jwt/validate/_ for token validation:__
+This app uses JWT auth through djoser. The endpoints related to it are:
+_/auth/jwt/users/_ for user creation.
+_/auth/jwt/create/_ for user validation and auth/refresh token generation.
+_/auth/jwt/validate/_ for token validation.
 
 No user activation is currently enabled.
 
