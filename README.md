@@ -17,3 +17,22 @@ _Authorization: JWT <auth_token>_
 ## Exposed endpoints
 
 ##### /order/
+Method GET: provides Orders list, including their details.
+
+#### /order/<key>/
+Method GET: provides order detail.
+Method POST: listens for JSON payload to create a new order. Expected payload syntax:
+_{ "date_time": "2020-01-01 20:00:00",
+   "details": [
+          {"productId": "ac334",
+           "quantity" : 10,
+          },
+          {"productId": "t01",
+           "quantity": 10,
+          }
+    ]
+  }_
+  
+  
+  
+
