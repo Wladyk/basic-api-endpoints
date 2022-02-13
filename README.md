@@ -5,9 +5,9 @@
 ## Authenthication
 
 This app uses JWT auth through djoser. The endpoints related to it are:
-_/auth/jwt/users/_ for user creation.__
-_/auth/jwt/create/_ for user validation and auth/refresh token generation.__
-_/auth/jwt/validate/_ for token validation.__
+_/auth/jwt/users/_ for user creation__
+_/auth/jwt/create/_ for user validation and auth/refresh token generation__
+_/auth/jwt/validate/_ for token validation__
 
 No user activation is currently enabled.
 
@@ -17,7 +17,7 @@ _Authorization: JWT <auth_token>_
 ## Exposed endpoints
 
 #### /order/
-JWT protected.__
+JWT protected__
 
 Method GET: provides Orders list, including their details.
 
