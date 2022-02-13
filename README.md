@@ -27,7 +27,8 @@ JWT protected.
 Method GET: provides Orders list, including their details.
 
 #### /order/key
-Method GET: provides order detail.__
+Method GET: provides order detail.
+
 Method POST: listens for JSON payload to create a new order. Expected payload syntax:
 ```
 { "date_time": "2020-01-01 20:00:00",
