@@ -19,10 +19,10 @@ _Authorization: JWT <auth_token>_
 ##### /order/__
 Method GET: provides Orders list, including their details.
 
-#### /order/key/__
+#### /order/key
 Method GET: provides order detail.__
 Method POST: listens for JSON payload to create a new order. Expected payload syntax:
-'''
+```
 { "date_time": "2020-01-01 20:00:00",
    "details": [
           {"productId": "ac334",
@@ -33,7 +33,7 @@ Method POST: listens for JSON payload to create a new order. Expected payload sy
           }
     ]
   }
-'''
+```
   
   
   
