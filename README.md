@@ -59,3 +59,11 @@ Expected payload syntax:
 { "productId": "ac334",
 }
 ```
+#### /product
+Offers standard ModelViewSet operations.
+
+Unprotected.
+
+#### /orderdetail
+Offers standard ModelViewSet operations.
+Unprotected.
