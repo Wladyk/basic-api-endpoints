@@ -16,7 +16,7 @@ _Authorization: JWT <auth_token>_
 
 ## Exposed endpoints
 
-##### /order/__
+##### /order/
 Method GET: provides Orders list, including their details.
 
 #### /order/key
@@ -34,7 +34,18 @@ Method POST: listens for JSON payload to create a new order. Expected payload sy
     ]
   }
 ```
-  
-  
-  
+Method PUT: Listens for JSON payload to update an existing order or its details. If a new product is added to the details, it will be added to the order. Expected payload syntax: 
+```
+{ "date_time": "2020-01-01 20:00:00",
+   "details": [
+          {"productId": "ac334",
+           "quantity" : 10,
+          },
+          {"productId": "t01",
+           "quantity": 10,
+          }
+    ]
+  }
+```
+Method DELETE: Destroys the given order and all its related details.
 
