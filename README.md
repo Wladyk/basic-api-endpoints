@@ -14,6 +14,6 @@ No user activation is currently enabled.
 All protected viewsets should be impacted with the following headers:
 _Authorization: JWT <auth_token>_ 
 
-##Exposed endpoints
+## Exposed endpoints
 
 ##### /order/
