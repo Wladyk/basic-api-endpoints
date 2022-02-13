@@ -22,7 +22,8 @@ Method GET: provides Orders list, including their details.
 #### /order/<key>/
 Method GET: provides order detail.
 Method POST: listens for JSON payload to create a new order. Expected payload syntax:
-_{ "date_time": "2020-01-01 20:00:00",
+'''
+{ "date_time": "2020-01-01 20:00:00",
    "details": [
           {"productId": "ac334",
            "quantity" : 10,
@@ -31,7 +32,8 @@ _{ "date_time": "2020-01-01 20:00:00",
            "quantity": 10,
           }
     ]
-  }_
+  }
+'''
   
   
   
