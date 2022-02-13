@@ -17,6 +17,8 @@ _Authorization: JWT <auth_token>_
 ## Exposed endpoints
 
 ##### /order/
+JWT protected.__
+
 Method GET: provides Orders list, including their details.
 
 #### /order/key
@@ -49,3 +51,11 @@ Method PUT: Listens for JSON payload to update an existing order or its details.
 ```
 Method DELETE: Destroys the given order and all its related details.
 
+#### /order/key/deleteProduct
+Method POST: Deletes a given product from the "key" order's details.
+Expected payload syntax:
+
+```
+{ "productId": "ac334",
+}
+```
