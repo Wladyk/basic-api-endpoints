@@ -29,7 +29,7 @@ Method GET: provides Orders list, including their details.
 #### /order/key
 Method GET: provides order detail.
 
-Method POST: listens for JSON payload to create a new order. Expected payload syntax:
+Method POST: listens to incoming JSON payload to create a new order. Expected payload syntax:
 ```
 { "date_time": "2020-01-01 20:00:00",
    "details": [
@@ -42,7 +42,7 @@ Method POST: listens for JSON payload to create a new order. Expected payload sy
     ]
   }
 ```
-Method PUT: Listens for JSON payload to update an existing order or its details. If a new product is added to the details, it will be added to the order. Expected payload syntax: 
+Method PUT: listens to incoming JSON payload to update an existing order or its details. If a new product is added to the details, it will be added to the order. Expected payload syntax: 
 ```
 { "date_time": "2020-01-01 20:00:00",
    "details": [
